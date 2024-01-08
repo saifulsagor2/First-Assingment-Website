@@ -232,16 +232,26 @@ body {
 
 /* FOOTER SECTION STYLE */
 
-.footer {
+.footer-discription {
     display: flex;
     justify-content: space-between;
-    background: #070211;
-    padding: 300px;
-}
-
-.footer-discription {
     color: #FFF;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 500;
     line-height: 40px;
+    padding-bottom: 20px;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    gap: 20px;
+}
+
+.footer-section {
+    padding: 200px 50px;
+    background: #070211;
 }
