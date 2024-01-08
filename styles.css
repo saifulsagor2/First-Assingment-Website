@@ -1,0 +1,64 @@
+/* Header Style */
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.Container {
+    width: 85%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("/resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-paragraph {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.header-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700px;
+    line-height: 80px;
+}
+
+/* 65% OFF section style */
+.text-primary {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.text-primary2 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.text-primary3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.discount-photo{
+    margin-left: 980px;
+}
