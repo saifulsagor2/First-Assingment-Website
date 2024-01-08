@@ -69,10 +69,12 @@ body {
 .midnight-party {
     color: #fff;
     background-image: url("/resources/Vectorrr.png");
+    background-position: top center;
     background-repeat: no-repeat;
     max-width: 1320px;
     height: 600px;
     margin-left: 720px;
+    margin-top: 100px;
 }
 
 .midnight-title {
@@ -98,4 +100,56 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     background-color: black;
+}
+
+.midnight-content {
+    padding-left: 120px;
+    padding-top: 100px;
+    background-image: url("/resources/Group\ 70.png");
+    background-repeat: no-repeat;
+}
+
+/* LOCATION SECTION DESIGN */
+
+.location {
+    text-align: center;
+    margin-top: 100px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.info-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+.info-discription {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.location-btn {
+    border-radius: 8px;
+    background: #F00;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
 }
