@@ -235,14 +235,13 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
+    background: #070211;
+    padding: 300px;
 }
 
 .footer-discription {
-    .color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
+    color: #FFF;
+    font-size: 25px;
     font-weight: 500;
     line-height: 40px;
-    /* 166.667% */
 }
