@@ -61,7 +61,63 @@ body {
 }
 
 .discount-photo {
-    margin-left: 980px;
+    margin-left: 930px;
+}
+
+/* COMING SOON SECTION DESIGN */
+
+.coming-soon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 200px 300px;
+}
+
+.new {
+    color: #F00;
+    /* text-align: center; */
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.coming {
+    color: #070211;
+    /* text-align: center; */
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.primary-paragraph {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 15px;
+    display: inline;
+}
+
+.Year {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.primary-paragraph2 {
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.coming-soon-image {
+    padding-right: 200px;
+}
+
+/* HOLIDAY SECTION DESIGN */
+
+.holiday-heading{
+    text-align: center;
 }
 
 /* MIDNIGHT PARTY SECTION DESIGN */
@@ -73,7 +129,7 @@ body {
     background-repeat: no-repeat;
     max-width: 1320px;
     height: 600px;
-    margin-left: 720px;
+    margin-left: 650px;
     margin-top: 100px;
 }
 
@@ -114,7 +170,7 @@ body {
     text-align: center;
     margin-top: 100px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    margin-left: 500px;
+    margin-left: 650px;
     margin-right: 500px;
     padding-bottom: 100px;
     padding-top: 100px;
@@ -126,7 +182,6 @@ body {
     font-size: 32px;
     font-weight: 600;
     line-height: 56px;
-    /* 175% */
     text-transform: capitalize;
 }
 
@@ -241,6 +296,10 @@ body {
     line-height: 40px;
     padding-bottom: 20px;
 
+}
+
+.primary-paragraph {
+    width: 20%;
 }
 
 .icons {
