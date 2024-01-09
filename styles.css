@@ -10,7 +10,7 @@ body {
     height: 600px;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0);
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Banner\ Image.png");
+    background-image:  url("/resources/Banner\ Image.png");
     border-radius: 16px;
     background-repeat: no-repeat;
     background-position: center;
@@ -174,7 +174,7 @@ body {
 
 .midnight-party {
     color: #fff;
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Vectorrr.png");
+    background-image: url("/resources/Vectorrr.png");
     background-position: top center;
     background-repeat: no-repeat;
     max-width: 1320px;
